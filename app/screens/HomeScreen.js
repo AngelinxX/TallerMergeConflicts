@@ -8,10 +8,10 @@ export const Home = ({ navigation }) => {
 
             <View style={styles.boton1}>
                 <Button
-                    title='CONTACTS'
+                    title='PhoneNumberNav'
                     color="#841584"
                     onPress={() => {
-                        navigation.navigate('ContactsNav');
+                        navigation.navigate('PhoneNumberNav');
                     }}
                 />
             </View>
